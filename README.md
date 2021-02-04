@@ -1,6 +1,6 @@
 # Hugrid
 
-Hugrid (Hugo+grid) is a simple grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.
+Teste
 
 # Origin
 
