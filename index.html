@@ -42,7 +42,7 @@ ga('send', 'pageview');
 				<ul id="og-grid" class="og-grid">
 					
 					<li>
-						<a href="https://estmat-ufv.github.io/EF1/" data-largesrc="images/full/chaves.jpeg" data-title="Oficina 1" data-description="Atividades para o Ensino Fundamental 1." data-buttontext="">
+						<a href="https://estmat-ufv.github.io/EF1/" data-largesrc="images/full/chaves.jpeg" data-title="Ensino Fundamental 1" data-description="Atividades para o Ensino Fundamental 1." data-buttontext="">
 							<img src="images/thumbs/chaves.jpeg" alt="Referencias"/>
 						</a>
 					</li>
@@ -408,7 +408,7 @@ ga('send', 'pageview');
 					create : function() {
 						this.$title = $( '<h3></h3>' );
 						this.$description = $( '<p></p>' );
-						this.$href = $( '<a href="#" target="_blank">Download do arquivo</a>' );
+						this.$href = $( '<a href="#" target="_blank">Página de Conteúdos</a>' );
 						this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 						this.$loading = $( '<div class="og-loading"></div>' );
 						this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
@@ -447,7 +447,7 @@ ga('send', 'pageview');
 						this.$title.html( eldata.title );
 						this.$description.html( eldata.description );
 						if(eldata.buttontext) this.$href.text(eldata.buttontext);
-						else this.$href.text("Download do arquivo")
+						else this.$href.text("Página de Conteúdos")
 
 						if (eldata.href) {
 							this.$href.attr( 'href', eldata.href );
